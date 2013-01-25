@@ -1,0 +1,207 @@
+body {
+	width: 99%;
+	background-color: #333;
+	font-family: 'Monda', serif;
+	color: #999;
+}
+
+.body-cont {
+	width: 990px;
+}
+
+.body-cont-stats {
+	width: 500px;
+	padding: 15px 0px 0px 0px;
+}
+
+.header {
+	font-size: 1.875em;
+	text-decoration: bold;
+	padding-bottom: 10px;
+}
+.levels-col {
+	float: left;
+	width: 190px;
+}
+
+.attack {
+	float: left;
+	padding-top: 30px;
+}
+
+.strength {
+	float: left;
+	padding-top: 10px;
+}
+
+.defence {
+	float: left;
+	padding-top: 10px;
+}
+
+.constitution{
+	float: left;
+	padding-top: 10px;
+}
+
+.ranged {
+	float: left;
+	padding-top: 10px;
+}
+
+.magic {
+	float: left;
+	padding-top: 10px;
+}
+
+.prayer {
+	float: left;
+	padding-top: 10px;
+}
+
+.cooking {
+	float: left;
+	padding-top: 10px;
+}
+
+.woodcutting {
+	float: left;
+	padding-top: 10px;
+}
+
+.fletching {
+	float: left;
+	padding-top: 10px;
+}
+
+.fishing {
+	float: left;
+	padding-top: 10px;
+}
+
+.firemaking {
+	float: left;
+	padding-top: 10px;
+}
+
+.crafting {
+	float: left;
+	padding-top: 10px;
+}
+
+.smithing {
+	float: left;
+	padding-top: 10px;
+}
+
+.mining {
+	float: left;
+	padding-top: 10px;
+}
+
+.herblore {
+	float: left;
+	padding-top: 10px;
+}
+
+.agility {
+	float: left;
+	padding-top: 10px;
+}
+
+.thieving {
+	float: left;
+	padding-top: 10px;
+}
+
+.slayer {
+	float: left;
+	padding-top: 10px;
+}
+
+.farming {
+	float: left;
+	padding-top: 10px;
+}
+
+.runecrafting {
+	float: left;
+	padding-top: 10px;
+}
+
+.hunter {
+	float: left;
+	padding-top: 10px;
+}
+
+.construction {
+	float: left;
+	padding-top: 10px;
+}
+
+.summoning {
+	float: left;
+	padding-top: 10px;
+}
+
+.dungeon {
+	float: left;
+	padding-top: 10px
+}
+.info {
+	float: left;
+	padding: 30px 20px 30px 20px;
+}
+
+hl {
+	color:#666;
+}
+
+.search {
+	padding: 20px 0px 20px 0px;
+}
+
+.header-two {
+	padding: 30px 0px 0px 0px;
+}
+
+.total-level {
+	padding-top: 10px;
+	float: left;
+	padding-right: 50px;
+}
+
+.total-exp {
+	padding-top: 10px;
+	float: right;
+}
+
+.rank {
+	padding-top: 20px;
+	float: right;
+}
+
+.username {
+	padding-top: 20px;
+	float: left;
+}
+
+a:link {
+	text-decoration: none;
+	color: #666;
+}
+
+a:visited {
+	text-decoration:none;
+	color:#666;
+}
+
+.footer-left {
+	padding: 40px 20px 30px 20px;
+	float: left;
+}
+
+.footer-right {
+	padding: 40px 20px 30px 20px;
+	float: right;
+}
