@@ -22,7 +22,17 @@
 	if(empty($_POST['user'])) {
 		die('You must input a username for the script to search!');
 	}	
+
+		/**
+		* Changes the input inside $_POST['user'] to $username.
+		**/
+		$username = $_POST['user'];		
 		
+		/**
+		* Assembles the date and assigns it into the the $date variable.
+		**/
+		$date = date("F j, Y, g:i a");
+
 		/**
 		* Preparing the SQL query for input into the database, assigned to the $stmt variable.
 		**/
@@ -33,16 +43,6 @@
 		**/
 		$stmt->bind_param('ss', $username, $date);
 			
-		/**
-		* Changes the input inside $_POST['user'] to $username.
-		**/
-		$username = $_POST['user'];		
-		
-		/**
-		* Assembles the date and assigns it into the the $date variable.
-		**/
-		$date = date("F j, Y, g:i a");
-	
 		/**
 		* Execute the prepared statement
 		**/
