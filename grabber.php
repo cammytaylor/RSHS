@@ -42,12 +42,7 @@
 		* Assembles the date and assigns it into the the $date variable.
 		**/
 		$date = date("F j, Y, g:i a");
-		
-		/**
-		* Sanitises the input into the database by escaping the user-input string.
-		**/
-		$username = $con->real_escape_string($username);
-		
+	
 		/**
 		* Execute the prepared statement
 		**/
